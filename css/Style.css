@@ -174,17 +174,18 @@ p{
 
 /* --------------- Site title ---------------- */
 main .site-title{
-    background: url('../assets/Background-image.png');
+    background: url('../images/Abstract\ Art\ Canvas.png');
     background-size: cover;
-    height: 110vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
+    background-attachment: fixed;
+    object-fit: cover;
 }
 
 main .site-title .site-background{
     padding-top: 10rem;
     text-align: center;
-    color: var(--white);
 }
 
 main .site-title h1, h3{
