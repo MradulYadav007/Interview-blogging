@@ -209,6 +209,7 @@ main .site-title .btn:hover{
 
 main .blog{
     background: url('../assets/Abract01.png');
+    background-color: #a33b3b;
     background-repeat: no-repeat;
     background-position: right;
     height: 100vh;
