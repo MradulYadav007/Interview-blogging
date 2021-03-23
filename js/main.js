@@ -41,6 +41,12 @@ $(document).ready(function () {
             scrollTop: 0
         }, 1000);
     })
+    // click to scroll top
+    $('.foot a').click(function () {
+        $('html, body').animate({
+            scrollTop: $(document).height()
+        }, 1000);
+    })
 
     // AOS Instance
     AOS.init();

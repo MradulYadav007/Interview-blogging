@@ -3,6 +3,7 @@ const app=express();
 const cors=require('cors');
 const dotenv=require('dotenv');
 dotenv.config();
+const db=require('./db');
 
 app.use(cors());
 app.use(express.json());
@@ -15,7 +16,8 @@ app.post('/insert',(request,response)=>{
 
 //read
 app.get('/getAll',(request,response)=>{
-    console.log('test');
+    const dbS=db.getDbInstance();
+    const result=dbS.getAllData();
 });
 
 //update
@@ -26,3 +28,4 @@ app.get('/getAll',(request,response)=>{
 app.listen(5000,() => {
     console.log('App is running');
 });
+

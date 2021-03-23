@@ -1,8 +1,8 @@
-const { response } = require("express");
+//const { response } = require("express");
 
 document.addEventListener('DOMcontetnLoaded',function(){
     fetch('http://localhost:5000/getAll')
-    .then(response ==>response.json())
+    .then(response => response.json())
     .then(data=> console.log(data));
     loadHTMLTable([])
 });

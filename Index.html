@@ -43,13 +43,13 @@
                         <a href="#">Home</a>
                     </li>
                     <li class="nav-link">
-                        <a href="#">Write</a>
+                        <a href="./write.html">Write</a>
+                    </li>
+                    <li class="nav-link foot">
+                        <a >About Us</a>
                     </li>
                     <li class="nav-link">
-                        <a href="#">About Us</a>
-                    </li>
-                    <li class="nav-link">
-                        <a href="#">What We serve</a>
+                        <a href="">What We serve</a>
                     </li>
                     <li class="nav-link">
                         <a href="#">Contact Us</a>
@@ -57,10 +57,10 @@
                 </ul>
             </div>
             <div class="social text-gray">
-                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                <a href="#"><i class="fab fa-instagram"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fab fa-youtube"></i></a>
+                <a href="https://www.facebook.com/mradul20/"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/imradul.yadav/"><i class="fab fa-instagram"></i></a>
+                <a href=""><i class="fab fa-twitter"></i></a>
+                <a href="https://www.youtube.com"><i class="fab fa-youtube"></i></a>
             </div>
         </div>
     </nav>
@@ -94,7 +94,7 @@
                             <img src="./images/vlad-kutepov-BHCPr3RiHWI-unsplash.jpg" alt="post-1">
                             <div class="blog-title">
                                 <h3>InterviewBit</h3>
-                                <button class="btn btn-blog">Jump to the site</button>
+                                <button class="btn btn-blog" onclick="document.location='https://www.interviewbit.com/practice/'">Jump to the site</button>
                                 <span>Some famous company ques.</span>
                             </div>
                         </div>
@@ -102,7 +102,7 @@
                             <img src="./images/Abstract Art Canvas (2).png" alt="post-1">
                             <div class="blog-title">
                                 <h3>LeetCode</h3>
-                                <button class="btn btn-blog">Jump to the site</button>
+                                <button class="btn btn-blog" onclick="document.location='https://leetcode.com/'">Jump to the site</button>
                                 <span>Some standard ques.</span>
                             </div>
                         </div>
@@ -110,7 +110,7 @@
                             <img src="./images/Chamberlain-Headquarters-e1540386834468.jpg" alt="post-1">
                             <div class="blog-title">
                                 <h3>HackerEarth</h3>
-                                <button class="btn btn-blog">Practice some problems</button>
+                                <button class="btn btn-blog" onclick="document.location='https://www.hackerearth.com/'">Practice some problems</button>
                                 <span>Practice makes a man perfect</span>
                             </div>
                         </div>
@@ -118,7 +118,7 @@
                             <img src="./images/jason-blackeye-2SPPbNbVQ3Y-unsplash.jpg" alt="post-1">
                             <div class="blog-title">
                                 <h3>Core Jobs</h3>
-                                <button class="btn btn-blog">Explore</button>
+                                <button class="btn btn-blog" onclick="document.location='https://www.naukri.com/core-jobs'">Explore</button>
                                 <span>Give it a try.</span>
                             </div>
                         </div>
@@ -306,7 +306,6 @@
                         </tbody>
                       </table>
                 </div>
-                <script src="./js/index.js"></script>
                 <aside class="sidebar">
                     <div class="category">
                         <h2>Category</h2>
@@ -366,7 +365,7 @@
 
     <!-- --------------------------- Footer ---------------------------------------- -->
 
-    <footer class="footer">
+    <footer class="footer" id="footer">
         <div class="container">
             <div class="about-us" data-aos="fade-right" data-aos-delay="200">
                 <h2>About us</h2>
@@ -411,7 +410,8 @@
         </div>
         
     </footer>
-    
+    <script src="./js/index.js"></script>
+    <script src="./js/scroll.js"></script>
     <!-- -------------x------------- Footer --------------------x------------------- -->
 
     <!-- Jquery Library file -->
